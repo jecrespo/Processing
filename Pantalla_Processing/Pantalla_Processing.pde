@@ -27,7 +27,7 @@ void setup() {
 
 void draw () {
   fill (125);
-  rect(40, 180, 400, 200);
+  rect(40, 170, 400, 200);
   
   if (myPort.available() > 0)
     texto = "";
